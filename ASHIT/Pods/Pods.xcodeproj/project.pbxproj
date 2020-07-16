@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6FFADAC1F207D83C1BC2DC8DD85861 /* FastScroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0B385E9DAC899718D04D251A5EC0E7 /* FastScroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10203769F0951029EAC1E7F98C86C3CB /* FastScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EC40391F4F3BDF4317BFFBE9C58A30 /* FastScroll-dummy.m */; };
+		5613F27767FCBDEE5507C9AD372D9FFF /* FastScrollTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0301EB96346491DC1F562D1A4E7BBD /* FastScrollTableView.swift */; };
+		5B6C5537BE13A9491B8A58DDE5774332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		A478FA3A0FE5D129B09143F815915B6A /* FastScrollCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516F6E53AB64F64660C17C24D550747A /* FastScrollCollectionView.swift */; };
+		A582A79DD4A4CB079E869AFAA8697D25 /* Pods-ASHIT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5457D03F8F9B994FE03A293F4BB60625 /* Pods-ASHIT-dummy.m */; };
+		BB72BFE69486A20192F2C63506FE59A9 /* Pods-ASHIT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F48BFD8426378E5A8038B1294EF97BFC /* Pods-ASHIT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3755A6027CC87E62566E928421CA2CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		FAC0EB914846B25C22C3383717BC0F92 /* FastScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 65656B7042853CA929A5AB5F0CAF436E /* FastScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCD11B82C4B76233196F8FBEAB3C0C2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76AC069946934A371D41CDA00B1AEF96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CBD29B0A13E7D066651AEF34B0F8A7;
+			remoteInfo = FastScroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1514A4E784C4AAF3034EA6C5A58DBEA7 /* FastScroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FastScroll.framework; path = FastScroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17901F2809CEF6342E5679B9483E5291 /* FastScroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastScroll.release.xcconfig; sourceTree = "<group>"; };
+		2D9A084EA2445C24DAF49A6102F637D7 /* Pods_ASHIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASHIT.framework; path = "Pods-ASHIT.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		516F6E53AB64F64660C17C24D550747A /* FastScrollCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FastScrollCollectionView.swift; path = FastScroll/FastScrollCollectionView.swift; sourceTree = "<group>"; };
+		5457D03F8F9B994FE03A293F4BB60625 /* Pods-ASHIT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASHIT-dummy.m"; sourceTree = "<group>"; };
+		569B3AFDB047B6D4A2ADCE526ED99FED /* FastScroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FastScroll.modulemap; sourceTree = "<group>"; };
+		58EC40391F4F3BDF4317BFFBE9C58A30 /* FastScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FastScroll-dummy.m"; sourceTree = "<group>"; };
+		65656B7042853CA929A5AB5F0CAF436E /* FastScroll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FastScroll.h; path = FastScroll/FastScroll.h; sourceTree = "<group>"; };
+		6D308000797E31F71D144D93A841E9DD /* Pods-ASHIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASHIT.debug.xcconfig"; sourceTree = "<group>"; };
+		6EB5DABFC18BDFBC5C818D4937B495F7 /* FastScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastScroll-prefix.pch"; sourceTree = "<group>"; };
+		7B0B385E9DAC899718D04D251A5EC0E7 /* FastScroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FastScroll-umbrella.h"; sourceTree = "<group>"; };
+		8DE4C1FF8DA01D645527D13241C5B993 /* Pods-ASHIT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASHIT-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6EC5EA1EEDF4FCA52CED33891207DEB /* Pods-ASHIT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASHIT-acknowledgements.plist"; sourceTree = "<group>"; };
+		B55E612837E5B945168CB2EFB85ED22A /* Pods-ASHIT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASHIT-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D330F8C432FE5C506A31C053C3D3210D /* Pods-ASHIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASHIT.release.xcconfig"; sourceTree = "<group>"; };
+		DFBE66772831EE71F5AA40F404CE4A25 /* FastScroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FastScroll.debug.xcconfig; sourceTree = "<group>"; };
+		E9B4220DA47919588B693BE4B21CC098 /* FastScroll-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FastScroll-Info.plist"; sourceTree = "<group>"; };
+		F48BFD8426378E5A8038B1294EF97BFC /* Pods-ASHIT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASHIT-umbrella.h"; sourceTree = "<group>"; };
+		F8CAD12B9A6D288A7E7A7E57B70283B3 /* Pods-ASHIT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASHIT-frameworks.sh"; sourceTree = "<group>"; };
+		FC0301EB96346491DC1F562D1A4E7BBD /* FastScrollTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FastScrollTableView.swift; path = FastScroll/FastScrollTableView.swift; sourceTree = "<group>"; };
+		FF1F0BF5E9F887A7C99FCDB5EA88615C /* Pods-ASHIT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ASHIT.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455C3A92C1903989E657EE6FEFB5C27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCD11B82C4B76233196F8FBEAB3C0C2B /* Foundation.framework in Frameworks */,
+				C3755A6027CC87E62566E928421CA2CD /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4C2132C511CE1E9B41FF46EE41F5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B6C5537BE13A9491B8A58DDE5774332 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06FC5E63B7F6413F868493C8967B45FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				769E9958BE41A46028B2CDE42D64CCCF /* Pods-ASHIT */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B039BBA8F06B7CFB538C9750B36BB3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1514A4E784C4AAF3034EA6C5A58DBEA7 /* FastScroll.framework */,
+				2D9A084EA2445C24DAF49A6102F637D7 /* Pods_ASHIT.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		769E9958BE41A46028B2CDE42D64CCCF /* Pods-ASHIT */ = {
+			isa = PBXGroup;
+			children = (
+				FF1F0BF5E9F887A7C99FCDB5EA88615C /* Pods-ASHIT.modulemap */,
+				B55E612837E5B945168CB2EFB85ED22A /* Pods-ASHIT-acknowledgements.markdown */,
+				A6EC5EA1EEDF4FCA52CED33891207DEB /* Pods-ASHIT-acknowledgements.plist */,
+				5457D03F8F9B994FE03A293F4BB60625 /* Pods-ASHIT-dummy.m */,
+				F8CAD12B9A6D288A7E7A7E57B70283B3 /* Pods-ASHIT-frameworks.sh */,
+				8DE4C1FF8DA01D645527D13241C5B993 /* Pods-ASHIT-Info.plist */,
+				F48BFD8426378E5A8038B1294EF97BFC /* Pods-ASHIT-umbrella.h */,
+				6D308000797E31F71D144D93A841E9DD /* Pods-ASHIT.debug.xcconfig */,
+				D330F8C432FE5C506A31C053C3D3210D /* Pods-ASHIT.release.xcconfig */,
+			);
+			name = "Pods-ASHIT";
+			path = "Target Support Files/Pods-ASHIT";
+			sourceTree = "<group>";
+		};
+		CE1CD0D218AE75E1E81A4D26438437C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F073D5A84C42F8F863931A230A1D536F /* FastScroll */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				CE1CD0D218AE75E1E81A4D26438437C1 /* Pods */,
+				2B039BBA8F06B7CFB538C9750B36BB3F /* Products */,
+				06FC5E63B7F6413F868493C8967B45FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F073D5A84C42F8F863931A230A1D536F /* FastScroll */ = {
+			isa = PBXGroup;
+			children = (
+				65656B7042853CA929A5AB5F0CAF436E /* FastScroll.h */,
+				516F6E53AB64F64660C17C24D550747A /* FastScrollCollectionView.swift */,
+				FC0301EB96346491DC1F562D1A4E7BBD /* FastScrollTableView.swift */,
+				F2E16EAEC4DC94162E1AF9AA66D45951 /* Support Files */,
+			);
+			name = FastScroll;
+			path = FastScroll;
+			sourceTree = "<group>";
+		};
+		F2E16EAEC4DC94162E1AF9AA66D45951 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				569B3AFDB047B6D4A2ADCE526ED99FED /* FastScroll.modulemap */,
+				58EC40391F4F3BDF4317BFFBE9C58A30 /* FastScroll-dummy.m */,
+				E9B4220DA47919588B693BE4B21CC098 /* FastScroll-Info.plist */,
+				6EB5DABFC18BDFBC5C818D4937B495F7 /* FastScroll-prefix.pch */,
+				7B0B385E9DAC899718D04D251A5EC0E7 /* FastScroll-umbrella.h */,
+				DFBE66772831EE71F5AA40F404CE4A25 /* FastScroll.debug.xcconfig */,
+				17901F2809CEF6342E5679B9483E5291 /* FastScroll.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FastScroll";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7221409C78F4E3FE0367AAD9E799DBB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB72BFE69486A20192F2C63506FE59A9 /* Pods-ASHIT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A9AF6A2221FF8691090A0A42A9C8A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6FFADAC1F207D83C1BC2DC8DD85861 /* FastScroll-umbrella.h in Headers */,
+				FAC0EB914846B25C22C3383717BC0F92 /* FastScroll.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04CBD29B0A13E7D066651AEF34B0F8A7 /* FastScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 230B932BB5261EB73BB161B6ADA3E950 /* Build configuration list for PBXNativeTarget "FastScroll" */;
+			buildPhases = (
+				92A9AF6A2221FF8691090A0A42A9C8A5 /* Headers */,
+				BCF0100E9861BD2DF2F347C79E1DB4D6 /* Sources */,
+				455C3A92C1903989E657EE6FEFB5C27C /* Frameworks */,
+				4AE2A654771B354DC62166D2B98D7B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastScroll;
+			productName = FastScroll;
+			productReference = 1514A4E784C4AAF3034EA6C5A58DBEA7 /* FastScroll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2E4BE5B32AED4D2A54690E991693FB54 /* Pods-ASHIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4685651D183A188C6AF07898506236B9 /* Build configuration list for PBXNativeTarget "Pods-ASHIT" */;
+			buildPhases = (
+				7221409C78F4E3FE0367AAD9E799DBB6 /* Headers */,
+				4F6AA41FB5A2087A7498062666480C2E /* Sources */,
+				AC4C2132C511CE1E9B41FF46EE41F5E9 /* Frameworks */,
+				5A8E4C18549430D9BB2BD02B4A881B38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8111332221760D9C619DFED467ED879 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASHIT";
+			productName = "Pods-ASHIT";
+			productReference = 2D9A084EA2445C24DAF49A6102F637D7 /* Pods_ASHIT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2B039BBA8F06B7CFB538C9750B36BB3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CBD29B0A13E7D066651AEF34B0F8A7 /* FastScroll */,
+				2E4BE5B32AED4D2A54690E991693FB54 /* Pods-ASHIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AE2A654771B354DC62166D2B98D7B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A8E4C18549430D9BB2BD02B4A881B38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F6AA41FB5A2087A7498062666480C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A582A79DD4A4CB079E869AFAA8697D25 /* Pods-ASHIT-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF0100E9861BD2DF2F347C79E1DB4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10203769F0951029EAC1E7F98C86C3CB /* FastScroll-dummy.m in Sources */,
+				A478FA3A0FE5D129B09143F815915B6A /* FastScrollCollectionView.swift in Sources */,
+				5613F27767FCBDEE5507C9AD372D9FFF /* FastScrollTableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8111332221760D9C619DFED467ED879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FastScroll;
+			target = 04CBD29B0A13E7D066651AEF34B0F8A7 /* FastScroll */;
+			targetProxy = 76AC069946934A371D41CDA00B1AEF96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11510826E6300EEEFBDC5120078ED244 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D330F8C432FE5C506A31C053C3D3210D /* Pods-ASHIT.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASHIT/Pods-ASHIT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASHIT/Pods-ASHIT.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		182804240FF246BCE1AC79C52F5361F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17901F2809CEF6342E5679B9483E5291 /* FastScroll.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FastScroll/FastScroll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FastScroll/FastScroll-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FastScroll/FastScroll.modulemap";
+				PRODUCT_MODULE_NAME = FastScroll;
+				PRODUCT_NAME = FastScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52CAE4BA68DCFAC6B1073026C88A99CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D308000797E31F71D144D93A841E9DD /* Pods-ASHIT.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ASHIT/Pods-ASHIT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASHIT/Pods-ASHIT.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA0970FF57B4102D9443198BEAC92637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFBE66772831EE71F5AA40F404CE4A25 /* FastScroll.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FastScroll/FastScroll-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FastScroll/FastScroll-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FastScroll/FastScroll.modulemap";
+				PRODUCT_MODULE_NAME = FastScroll;
+				PRODUCT_NAME = FastScroll;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		230B932BB5261EB73BB161B6ADA3E950 /* Build configuration list for PBXNativeTarget "FastScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA0970FF57B4102D9443198BEAC92637 /* Debug */,
+				182804240FF246BCE1AC79C52F5361F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4685651D183A188C6AF07898506236B9 /* Build configuration list for PBXNativeTarget "Pods-ASHIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CAE4BA68DCFAC6B1073026C88A99CC /* Debug */,
+				11510826E6300EEEFBDC5120078ED244 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

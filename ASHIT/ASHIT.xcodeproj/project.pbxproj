@@ -13,9 +13,12 @@
 		5B95B59C24C0F869006E0C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B95B59A24C0F869006E0C6F /* Main.storyboard */; };
 		5B95B59E24C0F86A006E0C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B95B59D24C0F86A006E0C6F /* Assets.xcassets */; };
 		5B95B5A124C0F86A006E0C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B95B59F24C0F86A006E0C6F /* LaunchScreen.storyboard */; };
+		AB0B805585E4798D34AD94D8 /* Pods_ASHIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B55C9DEA7B02A3AB14B804B /* Pods_ASHIT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		246EDCB0B9A0B8256A8DD35E /* Pods-ASHIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASHIT.release.xcconfig"; path = "Target Support Files/Pods-ASHIT/Pods-ASHIT.release.xcconfig"; sourceTree = "<group>"; };
+		4B55C9DEA7B02A3AB14B804B /* Pods_ASHIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASHIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B95B59124C0F869006E0C6F /* ASHIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASHIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B95B59424C0F869006E0C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5B95B59624C0F869006E0C6F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		5B95B59D24C0F86A006E0C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B95B5A024C0F86A006E0C6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B95B5A224C0F86A006E0C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D296F39F669AB04EEF3C2A02 /* Pods-ASHIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASHIT.debug.xcconfig"; path = "Target Support Files/Pods-ASHIT/Pods-ASHIT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0B805585E4798D34AD94D8 /* Pods_ASHIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3478A9B9FAEE40872CF32990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D296F39F669AB04EEF3C2A02 /* Pods-ASHIT.debug.xcconfig */,
+				246EDCB0B9A0B8256A8DD35E /* Pods-ASHIT.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5B95B58824C0F869006E0C6F = {
 			isa = PBXGroup;
 			children = (
 				5B95B59324C0F869006E0C6F /* ASHIT */,
 				5B95B59224C0F869006E0C6F /* Products */,
+				3478A9B9FAEE40872CF32990 /* Pods */,
+				C8411BA4C30725BA5E1B23A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = ASHIT;
 			sourceTree = "<group>";
 		};
+		C8411BA4C30725BA5E1B23A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B55C9DEA7B02A3AB14B804B /* Pods_ASHIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B95B5A524C0F86A006E0C6F /* Build configuration list for PBXNativeTarget "ASHIT" */;
 			buildPhases = (
+				D26A8D70E9045B1570507079 /* [CP] Check Pods Manifest.lock */,
 				5B95B58D24C0F869006E0C6F /* Sources */,
 				5B95B58E24C0F869006E0C6F /* Frameworks */,
 				5B95B58F24C0F869006E0C6F /* Resources */,
+				7412A19AFB217CB78CA7A498 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7412A19AFB217CB78CA7A498 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ASHIT/Pods-ASHIT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ASHIT/Pods-ASHIT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ASHIT/Pods-ASHIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26A8D70E9045B1570507079 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASHIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5B95B58D24C0F869006E0C6F /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		5B95B5A624C0F86A006E0C6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D296F39F669AB04EEF3C2A02 /* Pods-ASHIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +370,7 @@
 		};
 		5B95B5A724C0F86A006E0C6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 246EDCB0B9A0B8256A8DD35E /* Pods-ASHIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

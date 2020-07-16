@@ -1,0 +1,16 @@
+PODS:
+  - FastScroll (1.1.0)
+
+DEPENDENCIES:
+  - FastScroll
+
+SPEC REPOS:
+  trunk:
+    - FastScroll
+
+SPEC CHECKSUMS:
+  FastScroll: fc73e3a1bf28adf02623859c5e6163fab6efa2f9
+
+PODFILE CHECKSUM: 2525ac8321acfc1d17c991b05a7cd1aa69a3ffcb
+
+COCOAPODS: 1.9.0

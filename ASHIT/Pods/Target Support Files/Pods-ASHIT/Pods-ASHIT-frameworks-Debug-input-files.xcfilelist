@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-ASHIT/Pods-ASHIT-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/FastScroll/FastScroll.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework

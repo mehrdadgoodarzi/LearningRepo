@@ -1,16 +1,20 @@
 PODS:
   - FastScroll (1.1.0)
+  - RxSwift (5.1.1)
 
 DEPENDENCIES:
   - FastScroll
+  - RxSwift
 
 SPEC REPOS:
   trunk:
     - FastScroll
+    - RxSwift
 
 SPEC CHECKSUMS:
   FastScroll: fc73e3a1bf28adf02623859c5e6163fab6efa2f9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
 
-PODFILE CHECKSUM: 2525ac8321acfc1d17c991b05a7cd1aa69a3ffcb
+PODFILE CHECKSUM: 148843e50f85cd902fc4c848707ea630bce231ed
 
 COCOAPODS: 1.9.0
